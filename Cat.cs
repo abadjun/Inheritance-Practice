@@ -22,5 +22,9 @@ namespace Inheritance_practice
             //color is included from base class
             isGoodToEat = false;
         }
+        public void Speak()
+        {
+            Console.WriteLine(" Meow! ");
+        }
     }
 }
