@@ -16,7 +16,7 @@ namespace Inheritance_practice
             animal1.PrintAnimalInfo();
             animal2.PrintAnimalInfo();
 
-            Cat cat1 = new Cat(" Grumpy ", " Short ", false);
+            Cat cat1 = new Cat(" Grumpy ", " Short ", false, "grey");
 
             cat1.PrintAnimalInfo();
         }

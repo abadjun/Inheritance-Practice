@@ -13,7 +13,7 @@ namespace Inheritance_practice
         private int weight;
 
         protected string color;
-
+        // protected is available in all subclasses
         private bool isGoodToEat;
 
         // for default constructor with no parameters
