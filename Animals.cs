@@ -14,7 +14,7 @@ namespace Inheritance_practice
 
         protected string color;
         // protected is available in all subclasses
-        private bool isGoodToEat;
+        protected bool isGoodToEat;
 
         // for default constructor with no parameters
         public Animal()
