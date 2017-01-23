@@ -12,12 +12,12 @@ namespace Inheritance_practice
         private int size;
         private int weight;
 
-        private string color;
+        protected string color;
 
         private bool isGoodToEat;
 
         // for default constructor with no parameters
-        private Animal()
+        public Animal()
         {
 
         }
@@ -46,7 +46,7 @@ namespace Inheritance_practice
             Console.WriteLine(" This animal has " + legs + " # of legs");
             Console.WriteLine(" the size is: " + size);
             Console.WriteLine(" It weighs " + weight);
-            Console.WriteLine(" And it's color is " + color);
+            Console.WriteLine(" And it's color is " + color + "\n");
         }
     }
 }
