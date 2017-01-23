@@ -16,6 +16,12 @@ namespace Inheritance_practice
 
         private bool isGoodToEat;
 
+        // for default constructor with no parameters
+        private Animal()
+        {
+
+        }
+
         public Animal(int legs, string color)
         {
             this.legs = legs;
