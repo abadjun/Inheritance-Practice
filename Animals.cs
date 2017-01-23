@@ -38,9 +38,9 @@ namespace Inheritance_practice
         public void PrintAnimalInfo()
         {
             Console.WriteLine(" This animal has " + legs + " # of legs");
-            Console.WriteLine(" It's size is: " + size);
+            Console.WriteLine(" the size is: " + size);
             Console.WriteLine(" It weighs " + weight);
-            Console.WriteLine(" And is the color " + color);
+            Console.WriteLine(" And it's color is " + color);
         }
     }
 }
